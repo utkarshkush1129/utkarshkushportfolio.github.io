@@ -4,7 +4,7 @@
 This repository contains my **personal portfolio website**, where I showcase my **projects, certifications, skills, education, and work experience** in the field of **Data Science and Machine Learning**.
 
 🔗 **Live Website:**  
-https://utkarshkushportfolio.github.io
+[https://utkarshkushportfolio.github.io](https://utkarshkush1129.github.io/utkarshkushportfolio.github.io/)
 
 ---
 
