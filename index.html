@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Utkarsh Kushwaha | Data Science Portfolio</title>
+  <meta name="description" content="Personal portfolio showcasing projects, certifications, education, and experience." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Top gradient glow -->
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <!-- Navbar -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="logo" href="#top">
+        <span class="logo-dot" aria-hidden="true"></span>
+        <span>Utkarsh Kushwaha</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+
+      <div id="nav-links" class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact" class="btn btn-small">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero container">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Master’s in Data Science</p>
+        <h1 class="headline">
+          Hi, I’m <span class="accent">Utkarsh Kushwaha</span>.
+          <br />
+          <span class="typewriter" data-phrases='["I convert Data into Value.","I ship dashboards.","Data-driven. Results-proven."]'></span>
+        </h1>
+
+        <p class="subhead">
+          Aspiring Data Analyst | Data Science Trainee | Python • SQL • Machine Learning • Power BI | Turning Data Into Insights.
+
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn btn-ghost" href="Resume/resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+        </div>
+
+       <div class="chips skills" aria-label="Key skills">
+
+  <span class="chip">
+    <i class="fa-brands fa-python"></i>
+    Python
+  </span>
+
+  <span class="chip">
+    <i class="fa-solid fa-database"></i>
+    SQL
+  </span>
+
+
+  <span class="chip">
+    <i class="fa-solid fa-chart-line"></i>
+    Data Analysis
+  </span>
+
+  <span class="chip">
+    <i class="fa-brands fa-github"></i>
+    GitHub
+  </span>
+
+  <span class="chip">
+    <i class="fa-brands fa-html5"></i>
+    HTML
+  </span>
+
+  <span class="chip">
+    <i class="fa-brands fa-css3-alt"></i>
+    CSS
+  </span>
+
+   <span class="chip">
+    <i class="fa-brands fa-react"></i>
+    ReactJs
+  </span>
+
+  <span class="chip">
+    <i class="fa-brands fa-node-js"></i>
+    NoteJs
+  </span>
+
+  <span class="chip">
+    <i class="fa-solid fa-database"></i>   <!-- best free fallback -->
+    MongoDB
+  </span>
+
+  <span class="chip">
+    <i class="fa-solid fa-file-excel"></i>
+    Microsoft Excel
+  </span>
+
+  <span class="chip">
+    <i class="fa-regular fa-window-maximize"></i>
+    GUI
+  </span>
+
+</div>
+
+      </div>
+
+      <aside class="hero-card reveal" aria-label="Quick profile">
+        <div class="avatar avatar-animated">
+             <img src="images/profile.jpg" alt="Utkarsh" />
+        </div>
+
+        <div class="hero-card-body">
+          <p class="muted">Open to:</p>
+          <p class="strong">Data Scientist • PowerBI Developer • Data Analyst</p>
+          <div class="divider"></div>
+          <p class="muted">Location</p>
+          <p class="strong">United Kingdom</p>
+          <div class="divider"></div>
+
+          <div class="mini-grid">
+            <div class="mini-stat">
+              <p class="mini-k">Projects</p>
+              <p class="mini-v">6+</p>
+            </div>
+            <div class="mini-stat">
+              <p class="mini-k">Certifications</p>
+              <p class="mini-v">3+</p>
+            </div>
+            <div class="mini-stat">
+              <p class="mini-k">Focus</p>
+              <p class="mini-v">ML + Analytics</p>
+            </div>
+            <div class="mini-stat">
+              <p class="mini-k">Tools</p>
+              <p class="mini-v">Python + SQL</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section container">
+      <div class="section-head reveal">
+        <h2>Projects</h2>
+        <p class="muted">A few projects that demonstrate end-to-end work: data, modeling, evaluation, and storytelling.</p>
+      </div>
+
+      <div class="grid cards">
+        <!-- Project card 1 -->
+        <article class="card reveal">
+          <div class="card-top">
+            <h3>Customer Churn Prediction</h3>
+            <span class="pill">Machine Learning</span>
+          </div>
+          <p class="card-text">
+            Built a churn model with feature engineering, cross-validation, and model explainability.
+          </p>
+          <ul class="tags" aria-label="Tech stack">
+            <li>Python</li><li>Pandas</li><li>Scikit-learn</li><li>SHAP</li>
+          </ul>
+          <div class="card-actions">
+            <a class="link" href="#" target="_blank" rel="noopener">GitHub →</a>
+            <a class="link" href="#" target="_blank" rel="noopener">Live Demo →</a>
+          </div>
+        </article>
+
+        <!-- Project card 2 -->
+        <article class="card reveal">
+          <div class="card-top">
+            <h3>Sales Analytics Dashboard</h3>
+            <span class="pill">Analytics</span>
+          </div>
+          <p class="card-text">
+            Cleaned messy sales data, defined KPIs, and built an interactive dashboard for stakeholders.
+          </p>
+          <ul class="tags">
+            <li>SQL</li><li>Power BI</li><li>DAX</li><li>ETL</li>
+          </ul>
+          <div class="card-actions">
+            <a class="link" href="#" target="_blank" rel="noopener">Case Study →</a>
+            <a class="link" href="#" target="_blank" rel="noopener">Dashboard →</a>
+          </div>
+        </article>
+
+        <!-- Project card 3 -->
+        <article class="card reveal">
+          <div class="card-top">
+            <h3>Sentiment Analysis (NLP)</h3>
+            <span class="pill">NLP</span>
+          </div>
+          <p class="card-text">
+            Trained and evaluated an NLP classifier, compared baseline vs. transformer embeddings.
+          </p>
+          <ul class="tags">
+            <li>Python</li><li>NLTK</li><li>Transformers</li><li>Metrics</li>
+          </ul>
+          <div class="card-actions">
+            <a class="link" href="#" target="_blank" rel="noopener">GitHub →</a>
+            <a class="link" href="#" target="_blank" rel="noopener">Report →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section container">
+  <div class="section-head reveal">
+    <h2>Certifications</h2>
+    <p class="muted">Professional certifications and verified credentials.</p>
+  </div>
+
+  <div class="grid list-cards">
+    
+    <!-- Certificate 1 -->
+    <article class="list-card reveal">
+  <div>
+    <h3>Microsoft Excel – Excel from Beginner to Advanced 2025</h3>
+    <p class="muted">Udemy • 2025</p>
+  </div>
+
+  <div style="display:flex; gap:.9rem;">
+    <a class="link" href="certificates/Excel.jpg" target="_blank">
+      View Certificate →
+    </a>
+    <a class="link" 
+       href="https://www.udemy.com/certificate/UC-a3e0af37-f8bd-4bdb-8dba-0a96b666e717/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com"
+       target="_blank" rel="noopener">
+       Verify →
+    </a>
+  </div>
+</article>
+
+
+    <!-- Certificate 2 -->
+   <article class="list-card reveal">
+  <div>
+    <h3>Data Structures and Algorithms</h3>
+    <p class="muted">GeeksforGeeks • 2022</p>
+  </div>
+
+  <div style="display:flex; gap:.9rem;">
+    <a class="link" href="certificates/gfg certificate.jpg" target="_blank">
+      View Certificate →
+    </a>
+    <a class="link" 
+       href="https://www.geeksforgeeks.org/certificate/5a525f19f0691e0aacc5f30f4d2a4123"
+       target="_blank" rel="noopener">
+       Verify →
+    </a>
+  </div>
+</article>
+
+    <!-- Certificate 3 -->
+   <article class="list-card reveal">
+  <div>
+    <h3>Face Recognition Application using Python</h3>
+    <p class="muted">HCL GUVI • 2021</p>
+  </div>
+
+  <div style="display:flex; gap:.9rem;">
+    <a class="link" href="certificates/GuviCertification - 316jX1U59p9O56L198.png" target="_blank">
+      View Certificate →
+    </a>
+    <a class="link" 
+       href="https://www.guvi.in/verify-certificate?id=fS39934h65eRc1W321"
+       target="_blank" rel="noopener">
+       Verify →
+    </a>
+  </div>
+</article>
+
+
+    <!-- Certificate 4 -->
+   <article class="list-card reveal">
+  <div>
+    <h3>Introduction to Programming Using Python</h3>
+    <p class="muted">IIT Bombay • 2021</p>
+  </div>
+
+  <div style="display:flex; gap:.9rem;">
+    <a class="link" href="certificates/Python IIT-BOMBAY.jpg" target="_blank">
+      View Certificate →
+    </a>
+    <!-- <a class="link" 
+       href="https://www.coursera.org/account/accomplishments/XYZ"
+       target="_blank" rel="noopener">
+       Verify →
+    </a> -->
+  </div>
+</article>
+
+
+
+  </div>
+</section>
+
+    <!-- Experience -->
+    <section id="experience" class="section container">
+      <div class="section-head reveal">
+        <h2>Work Experience</h2>
+        <p class="muted">Impact-focused roles and internships.</p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-content card">
+            <div class="timeline-top">
+              <h3>Data Science Intern — Company Name</h3>
+              <span class="muted">Jun 2025 – Aug 2025</span>
+            </div>
+            <ul class="bullets">
+              <li>Built a predictive model that improved forecasting accuracy by <b>__%</b>.</li>
+              <li>Automated ETL pipeline using Python + SQL, reducing manual reporting time by <b>__%</b>.</li>
+              <li>Presented insights to stakeholders using a dashboard and written report.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-content card">
+            <div class="timeline-top">
+              <h3>Data Analyst (Part-time) — Company Name</h3>
+              <span class="muted">Sep 2024 – May 2025</span>
+            </div>
+            <ul class="bullets">
+              <li>Designed KPI tracking and weekly executive dashboards.</li>
+              <li>Ran cohort analysis and segmentation to improve retention initiatives.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section container">
+      <div class="section-head reveal">
+        <h2>Education</h2>
+        <p class="muted">Academic background and relevant modules.</p>
+      </div>
+
+      <div class="grid cards">
+        <article class="card reveal">
+          <h3>MSc Data Science — Keele University</h3>
+          <p class="muted">2025 – 2026 (Tentative)</p>
+          <ul class="bullets">
+            <li>Key modules: Machine Learning, Data Mining, Statistics, Deep Learning, Big Data.</li>
+            <!-- <li>Thesis: <b>Your thesis topic</b> (e.g., “Explainable AI for Credit Risk”).</li> -->
+          </ul>
+        </article>
+
+        <article class="card reveal">
+          <h3>BTech Computer Science — Lovely Professional University</h3>
+          <p class="muted">2020 – 2024</p>
+          <ul class="bullets">
+            <li>Relevant coursework: Programming, Data Structures, Algorithms, and Software Systems.</li>
+            <!-- <li>Final project: <b>Project title</b>.</li> -->
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section container">
+      <div class="section-head reveal">
+        <h2>Contact</h2>
+        <p class="muted">Want to collaborate or discuss a role? Reach out.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="card reveal">
+          <h3>Let’s connect</h3>
+          <p class="muted">Email is best. I usually respond within 24–48 hours.</p>
+          <div class="contact-links">
+            <a class="btn" href="mailto:kushwahautkarsh410@gmail.com">Email Me</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/utkarshkush1129/" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn btn-ghost" href="https://github.com/utkarshkush1129" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+
+    <form class="card reveal"
+      action="https://formspree.io/f/meeqngao"
+      method="POST"
+      id="contactForm">
+
+  <h3>Quick message</h3>
+
+  <label>
+    <span>Name</span>
+    <input type="text" name="name" placeholder="Your name" required>
+  </label>
+
+  <label>
+    <span>Email</span>
+    <input type="email" name="email" placeholder="you@example.com" required>
+  </label>
+
+  <label>
+    <span>Message</span>
+    <textarea name="message" rows="4" placeholder="Write your message..." required></textarea>
+  </label>
+
+  <input type="hidden" name="_subject" value="New message from Portfolio">
+  <input type="text" name="_gotcha" style="display:none">
+
+  <button class="btn" type="submit">Send Message</button>
+
+  <p class="form-success" hidden>✅ Thanks! I’ll get back to you shortly.</p>
+  <p class="form-error" hidden>❌ Something went wrong. Please try again.</p>
+</form>
+
+      </div>
+    </section>
+
+    <footer class="footer container">
+      <p class="muted">© <span id="year"></span> UtkarshKushwaha. Built with ❤️.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
